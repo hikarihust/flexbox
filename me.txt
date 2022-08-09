@@ -19,4 +19,7 @@ Flex wrap
     nowrap(default), wrap, wrap-reverse
     nowrap: Không tự động xuống dòng khi số lượng flex element quá nhiều
     wrap/wrap-reverse(Cho phép các phần tử xuống dòng)
+Flex flow
+    flex-flow: <direction-value> <wrap-value>
+    Là sự kết hợp và viết tắt của Flex direction và Flex wrap
     
