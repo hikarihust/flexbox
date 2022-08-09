@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <style>
-      /* flex-basis: default value - auto */
+      /* flex-grow: default value - 0 */
       .container {
         display: flex;
-        flex-direction: column;
+        max-width: 600px;
       }
 
       .box {
         box-sizing: border-box;
-        flex-basis: 120px;
+        flex-basis: 100px;
+        flex-grow: 1;
+      }
+
+      .box-2 {
+        flex-grow: 3;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <div class="box box-1">a</div>
-      <div class="box box-2">ab</div>
-      <div class="box box-3">abc</div>
-      <div class="box box-4">4</div>
-      <div class="box box-5">5</div>
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
     </div>
   </body>
 </html>
