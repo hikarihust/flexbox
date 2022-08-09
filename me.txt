@@ -12,4 +12,7 @@ Display flex
         các thành phần con trực tiếp bên trong sẽ là các flex item, kích thước của các item phụ
         thuộc vào nội dung của nó(khi ko set kích thước cho nó)
     flex, inline-flex
+Flex direction
+    Quyết định hướng của trục main axis: →　←　↑　↓
+    row(default), row-reverse, column, column-reverse
     
