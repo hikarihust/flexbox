@@ -43,4 +43,7 @@ Align content
 Order
     Order: default value - 0
     Sắp xếp được thứ tự của các flex item
+Flex basis
+    flex-basis: default value - auto
+    set height hoặc wight cho item dựa theo Flex direction là row hoặc column
     
