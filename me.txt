@@ -22,4 +22,8 @@ Flex wrap
 Flex flow
     flex-flow: <direction-value> <wrap-value>
     Là sự kết hợp và viết tắt của Flex direction và Flex wrap
+Justify content
+    justify-content -> alignment along main axis
+    flex-start(default) | flex-end | center | space-between | space-around | space-evenly
+    Căn chỉnh các phần tử trong flex container theo trục main axis
     
