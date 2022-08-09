@@ -26,4 +26,9 @@ Justify content
     justify-content -> alignment along main axis
     flex-start(default) | flex-end | center | space-between | space-around | space-evenly
     Căn chỉnh các phần tử trong flex container theo trục main axis
+Align items
+    align-items -> alignment along cross axis
+    stretch(default) | flex-start | flex-end | center | baseline
+    baseline: Căn theo chân của chữ
+    Căn chỉnh các phân tử theo trục cross axis
     
