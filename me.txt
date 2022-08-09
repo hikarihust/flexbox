@@ -15,4 +15,8 @@ Display flex
 Flex direction
     Quyết định hướng của trục main axis: →　←　↑　↓
     row(default), row-reverse, column, column-reverse
+Flex wrap
+    nowrap(default), wrap, wrap-reverse
+    nowrap: Không tự động xuống dòng khi số lượng flex element quá nhiều
+    wrap/wrap-reverse(Cho phép các phần tử xuống dòng)
     
